@@ -1,4 +1,4 @@
---------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
 /*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
 
 @import url(animate.min.css);
@@ -26,12 +26,17 @@ html {
 }
 
 body {
-    color: #666666;
+    
     font-size: 14px;
     line-height: 1.80857;
     font-weight: normal;
     overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
+
+    background-image: url('../images/banner-bg.png');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
 }
 
 a {
@@ -209,7 +214,7 @@ button {
 }
 
 
-/* banner bg main start */
+/* banner bg main start 
 
 .banner_bg_main {
     width: 100%;
@@ -219,6 +224,8 @@ button {
     background-size: 100%;
     background-repeat: no-repeat;
 }
+*/
+
 
 
 /* banner bg main end */
@@ -571,10 +578,10 @@ a:hover {
 
 .box_main {
     width: 100%;
+    border-radius: 10px;
     background-color: #ffffff;
     height: auto;
     padding: 20px;
-    box-shadow: 0px 0 30px 10px #f0f0f0;
     margin-bottom: 20px;
 }
 
@@ -605,17 +612,25 @@ a:hover {
 .btn_main {
     width: 100%;
     display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
 }
 
 .buy_bt {
-    float: left;
-    width: 100%;
+    /* Remove float and width properties */
+    color: #ffffff;
+    background-color: #252525;
+    text-align: center;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
 }
 
 .buy_bt a {
-    width: 100%;
-    font-size: 16px;
-    color: #f26522;
+    /* Remove width property */
+    font-size: 18px;
+    color: #ffffff;
     background-color: transparent;
     text-align: right;
     font-weight: bold;
@@ -623,8 +638,9 @@ a:hover {
 
 .buy_bt a:hover {
     background-color: transparent;
-    color: #262626;
+    color: #edd06f;
 }
+
 
 .seemore_bt {
     width: 100%;
