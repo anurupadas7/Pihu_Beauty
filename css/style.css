@@ -214,7 +214,7 @@ button {
 }
 
 
-/* banner bg main start 
+/* banner bg main start */
 
 .banner_bg_main {
     width: 100%;
@@ -224,7 +224,7 @@ button {
     background-size: 100%;
     background-repeat: no-repeat;
 }
-*/
+
 
 
 
@@ -281,13 +281,14 @@ button {
 }
 
 .logo {
-    width: 80%;
+    width: 50%;
+    height: 50%;
     display: inline-block; /* Use inline-block to center-align and control width */
-    padding: 30px 0px;
+    padding: 0px 0px;
 }
 
 .logo img {
-    max-width: 100%; /* Make sure the image doesn't exceed its container */
+    max-width: 60%; /* Make sure the image doesn't exceed its container */
 }
 
 /* logo section end */
